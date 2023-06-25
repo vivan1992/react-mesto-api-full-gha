@@ -1,0 +1,12 @@
+.header__close{
+  width: 32px;
+  height: 32px;
+  background: url('../../../images/btn_close.svg') center center/cover no-repeat;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__close{
+    display: block;
+  }
+}

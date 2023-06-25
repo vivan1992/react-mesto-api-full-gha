@@ -1,0 +1,14 @@
+.form_login {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .form_login {
+    padding-top: 40px;
+  }
+}

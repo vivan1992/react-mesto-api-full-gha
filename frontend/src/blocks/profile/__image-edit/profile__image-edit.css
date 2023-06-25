@@ -1,0 +1,19 @@
+.profile__image-edit {
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border: none;
+    border-radius: 100%;
+    background: url('../../../images/Edit-Button.svg') center no-repeat;
+    background-color:rgba(0, 0, 0, 0.8);
+    background-size: 23%;
+    cursor: pointer;
+    transition: opacity 350ms ease;
+    position: absolute;
+    opacity: 0;
+
+}
+
+.profile__image-edit:hover {
+  opacity: 1;
+}

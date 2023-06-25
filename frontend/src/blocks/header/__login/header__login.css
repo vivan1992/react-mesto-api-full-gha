@@ -1,0 +1,10 @@
+.header__login {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__login {
+    display: none;
+  }
+}

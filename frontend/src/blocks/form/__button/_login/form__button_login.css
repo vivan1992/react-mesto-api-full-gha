@@ -1,0 +1,13 @@
+.form__button_login {
+  background: #FFFFFF;
+  color: #000000;
+  border: none;
+  align-self: flex-end;
+  margin-bottom: 32px;
+}
+
+.form__button_login:disabled {
+  background: none;
+  color: #FFFFFF;
+  border: solid 1px #FFFFFF;
+}
