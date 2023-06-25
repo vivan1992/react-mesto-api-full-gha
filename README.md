@@ -10,7 +10,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.68.39
+IP: 158.160.68.39
 
 Frontend https://mesto.ivan.practicum.nomoreparties.sbs
 
