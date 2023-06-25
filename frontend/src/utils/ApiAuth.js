@@ -1,3 +1,5 @@
+import {baseUrl} from './utils';
+
 class ApiAuth {
   constructor(baseUrl) {
     this._url = baseUrl;
@@ -30,6 +32,6 @@ class ApiAuth {
   }
 }
 
-const apiAuth = new ApiAuth('https://mesto.ivan.practicum.nomoreparties.sbs');
+const apiAuth = new ApiAuth(baseUrl);
 
 export default apiAuth;
