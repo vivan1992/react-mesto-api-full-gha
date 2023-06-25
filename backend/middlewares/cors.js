@@ -1,7 +1,7 @@
 const allowedCors = [
   'https://mesto.ivan.practicum.nomoreparties.sbs',
   'http://mesto.ivan.practicum.nomoreparties.sbs',
-  'localhost:3000',
+  'http://localhost:3000',
 ];
 
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
