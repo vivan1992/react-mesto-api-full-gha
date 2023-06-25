@@ -1,1 +1,1 @@
-export const baseUrl = `api.mesto.ivan.practicum.nomoreparties.sbs`;
+export const baseUrl = `http://localhost:3000`;

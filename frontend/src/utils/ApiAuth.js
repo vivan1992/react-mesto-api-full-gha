@@ -6,7 +6,7 @@ class ApiAuth {
   }
 
   _request(path, method = 'GET', headers, body = null) {
-    return fetch(this._url + path, {method, headers, body})
+    return fetch(this._url + path, {method, credentials: 'include', headers, body})
       .then(res => {
         if (res.ok) {
           return res.json();

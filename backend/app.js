@@ -9,7 +9,7 @@ const { errorHandler } = require('./middlewares/errorHandler');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 const corsOptions = {
-  origin: ['https://mesto.ivan.practicum.nomoreparties.sbs', 'http://mesto.ivan.practicum.nomoreparties.sbs', 'http://localhost:3000'],
+  origin: ['https://mesto.ivan.practicum.nomoreparties.sbs', 'http://mesto.ivan.practicum.nomoreparties.sbs', 'http://localhost:3001'],
   credentials: true,
 };
 

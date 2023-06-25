@@ -7,7 +7,7 @@ class Api {
   }
 
   _request(path, method = 'GET', body = null) {
-    return fetch(this._url + path, {method, headers: this._headers, body})
+    return fetch(this._url + path, {method, credentials: 'include', headers: this._headers, body})
       .then(res => {
         if (res.ok) {
           return res.json();
