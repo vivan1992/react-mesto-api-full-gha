@@ -186,6 +186,7 @@ function App() {
         if (res.token){
           localStorage.setItem('jwt', res.token);
           setLoggedIn(true);
+          setEmail(data.email);
           navigate('/', {replace: true});
         }
       })
